@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model>
+  <materials>
+    <material id="1" name="He" temperature="600">
+      <density value="6.3114002161460885" units="kg/m3"/>
+      <nuclide name="He3" ao="2e-06"/>
+      <nuclide name="He4" ao="0.999998"/>
+    </material>
+    <material id="2" name="eurofer">
+      <density value="7.78" units="g/cm3"/>
+      <nuclide name="Al27" ao="4e-05"/>
+      <nuclide name="B10" ao="1.982e-06"/>
+      <nuclide name="B11" ao="8.018e-06"/>
+      <nuclide name="C12" ao="0.0010383680999999998"/>
+      <nuclide name="C13" ao="1.1631899999999998e-05"/>
+      <nuclide name="Co59" ao="5e-05"/>
+      <nuclide name="Cr50" ao="0.0039105"/>
+      <nuclide name="Cr52" ao="0.0754101"/>
+      <nuclide name="Cr53" ao="0.0085509"/>
+      <nuclide name="Cr54" ao="0.0021285"/>
+      <nuclide name="Cu63" ao="2.0745000000000002e-05"/>
+      <nuclide name="Cu65" ao="9.255e-06"/>
+      <nuclide name="Fe54" ao="0.05191587450000001"/>
+      <nuclide name="Fe56" ao="0.8149682034000001"/>
+      <nuclide name="Fe57" ao="0.0188211699"/>
+      <nuclide name="Fe58" ao="0.0025047522000000003"/>
+      <nuclide name="Mn55" ao="0.0055"/>
+      <nuclide name="Mo100" ao="2.9232000000000002e-06"/>
+      <nuclide name="Mo92" ao="4.3947000000000005e-06"/>
+      <nuclide name="Mo94" ao="2.7560999999999998e-06"/>
+      <nuclide name="Mo95" ao="4.7619e-06"/>
+      <nuclide name="Mo96" ao="5.0018999999999995e-06"/>
+      <nuclide name="Mo97" ao="2.8746e-06"/>
+      <nuclide name="Mo98" ao="7.2876e-06"/>
+      <nuclide name="N14" ao="0.00039853480000000003"/>
+      <nuclide name="N15" ao="1.4652000000000002e-06"/>
+      <nuclide name="Nb93" ao="5e-05"/>
+      <nuclide name="Ni58" ao="6.80769e-05"/>
+      <nuclide name="Ni60" ao="2.62231e-05"/>
+      <nuclide name="Ni61" ao="1.1399e-06"/>
+      <nuclide name="Ni62" ao="3.6345000000000005e-06"/>
+      <nuclide name="Ni64" ao="9.256000000000001e-07"/>
+      <nuclide name="O16" ao="9.976206000000001e-06"/>
+      <nuclide name="O17" ao="3.79e-09"/>
+      <nuclide name="O18" ao="2.0003999999999998e-08"/>
+      <nuclide name="P31" ao="2e-05"/>
+      <nuclide name="S32" ao="2.8512222e-05"/>
+      <nuclide name="S33" ao="2.2460700000000002e-07"/>
+      <nuclide name="S34" ao="1.258797e-06"/>
+      <nuclide name="S36" ao="4.374e-09"/>
+      <nuclide name="Si28" ao="0.000239797168"/>
+      <nuclide name="Si29" ao="1.2176216e-05"/>
+      <nuclide name="Si30" ao="8.026615999999999e-06"/>
+      <nuclide name="Ta180" ao="1.4412e-07"/>
+      <nuclide name="Ta181" ao="0.0011998558799999998"/>
+      <nuclide name="Ti46" ao="8.250000000000001e-07"/>
+      <nuclide name="Ti47" ao="7.44e-07"/>
+      <nuclide name="Ti48" ao="7.372e-06"/>
+      <nuclide name="Ti49" ao="5.410000000000001e-07"/>
+      <nuclide name="Ti50" ao="5.180000000000001e-07"/>
+      <nuclide name="V50" ao="5e-06"/>
+      <nuclide name="V51" ao="0.0019950000000000002"/>
+      <nuclide name="W180" ao="1.3199999999999997e-05"/>
+      <nuclide name="W182" ao="0.002915"/>
+      <nuclide name="W183" ao="0.0015741"/>
+      <nuclide name="W184" ao="0.0033704"/>
+      <nuclide name="W186" ao="0.0031273"/>
+    </material>
+    <material id="3" name="eurofer">
+      <density value="7.78" units="g/cm3"/>
+      <nuclide name="Al27" ao="4e-05"/>
+      <nuclide name="B10" ao="1.982e-06"/>
+      <nuclide name="B11" ao="8.018e-06"/>
+      <nuclide name="C12" ao="0.0010383680999999998"/>
+      <nuclide name="C13" ao="1.1631899999999998e-05"/>
+      <nuclide name="Co59" ao="5e-05"/>
+      <nuclide name="Cr50" ao="0.0039105"/>
+      <nuclide name="Cr52" ao="0.0754101"/>
+      <nuclide name="Cr53" ao="0.0085509"/>
+      <nuclide name="Cr54" ao="0.0021285"/>
+      <nuclide name="Cu63" ao="2.0745000000000002e-05"/>
+      <nuclide name="Cu65" ao="9.255e-06"/>
+      <nuclide name="Fe54" ao="0.05191587450000001"/>
+      <nuclide name="Fe56" ao="0.8149682034000001"/>
+      <nuclide name="Fe57" ao="0.0188211699"/>
+      <nuclide name="Fe58" ao="0.0025047522000000003"/>
+      <nuclide name="Mn55" ao="0.0055"/>
+      <nuclide name="Mo100" ao="2.9232000000000002e-06"/>
+      <nuclide name="Mo92" ao="4.3947000000000005e-06"/>
+      <nuclide name="Mo94" ao="2.7560999999999998e-06"/>
+      <nuclide name="Mo95" ao="4.7619e-06"/>
+      <nuclide name="Mo96" ao="5.0018999999999995e-06"/>
+      <nuclide name="Mo97" ao="2.8746e-06"/>
+      <nuclide name="Mo98" ao="7.2876e-06"/>
+      <nuclide name="N14" ao="0.00039853480000000003"/>
+      <nuclide name="N15" ao="1.4652000000000002e-06"/>
+      <nuclide name="Nb93" ao="5e-05"/>
+      <nuclide name="Ni58" ao="6.80769e-05"/>
+      <nuclide name="Ni60" ao="2.62231e-05"/>
+      <nuclide name="Ni61" ao="1.1399e-06"/>
+      <nuclide name="Ni62" ao="3.6345000000000005e-06"/>
+      <nuclide name="Ni64" ao="9.256000000000001e-07"/>
+      <nuclide name="O16" ao="9.976206000000001e-06"/>
+      <nuclide name="O17" ao="3.79e-09"/>
+      <nuclide name="O18" ao="2.0003999999999998e-08"/>
+      <nuclide name="P31" ao="2e-05"/>
+      <nuclide name="S32" ao="2.8512222e-05"/>
+      <nuclide name="S33" ao="2.2460700000000002e-07"/>
+      <nuclide name="S34" ao="1.258797e-06"/>
+      <nuclide name="S36" ao="4.374e-09"/>
+      <nuclide name="Si28" ao="0.000239797168"/>
+      <nuclide name="Si29" ao="1.2176216e-05"/>
+      <nuclide name="Si30" ao="8.026615999999999e-06"/>
+      <nuclide name="Ta180" ao="1.4412e-07"/>
+      <nuclide name="Ta181" ao="0.0011998558799999998"/>
+      <nuclide name="Ti46" ao="8.250000000000001e-07"/>
+      <nuclide name="Ti47" ao="7.44e-07"/>
+      <nuclide name="Ti48" ao="7.372e-06"/>
+      <nuclide name="Ti49" ao="5.410000000000001e-07"/>
+      <nuclide name="Ti50" ao="5.180000000000001e-07"/>
+      <nuclide name="V50" ao="5e-06"/>
+      <nuclide name="V51" ao="0.0019950000000000002"/>
+      <nuclide name="W180" ao="1.3199999999999997e-05"/>
+      <nuclide name="W182" ao="0.002915"/>
+      <nuclide name="W183" ao="0.0015741"/>
+      <nuclide name="W184" ao="0.0033704"/>
+      <nuclide name="W186" ao="0.0031273"/>
+    </material>
+    <material id="6" name="He" temperature="600">
+      <density value="0.16039895622154804" units="kg/m3"/>
+      <nuclide name="He3" ao="2e-06"/>
+      <nuclide name="He4" ao="0.999998"/>
+    </material>
+    <material id="7" name="tungsten">
+      <density value="19.3" units="g/cm3"/>
+      <nuclide name="W180" ao="0.0012"/>
+      <nuclide name="W182" ao="0.265"/>
+      <nuclide name="W183" ao="0.1431"/>
+      <nuclide name="W184" ao="0.3064"/>
+      <nuclide name="W186" ao="0.2843"/>
+    </material>
+    <material id="8" name="he_purge_mix">
+      <density value="0.00016052397456161197" units="g/cm3"/>
+      <nuclide name="H1" ao="0.0004444355620367774"/>
+      <nuclide name="H2" ao="6.922717587197799e-08"/>
+      <nuclide name="He3" ao="1.9986664856323617e-06"/>
+      <nuclide name="He4" ao="0.9993312441496953"/>
+      <nuclide name="O16" ao="0.00022172356725859833"/>
+      <nuclide name="O17" ao="8.423365755579705e-08"/>
+      <nuclide name="O18" ao="4.4459369017049183e-07"/>
+    </material>
+    <material id="20" name="breeder_homogenised">
+      <density value="1.1361668718361193" units="g/cm3"/>
+      <nuclide name="H1" ao="1.0284961391922192e-07"/>
+      <nuclide name="H2" ao="1.6020293872347296e-11"/>
+      <nuclide name="He3" ao="4.625239156347396e-10"/>
+      <nuclide name="He4" ao="0.0002312614952934542"/>
+      <nuclide name="Li6" ao="0.266604955664995"/>
+      <nuclide name="Li7" ao="0.17773663710999668"/>
+      <nuclide name="O16" ao="0.44328437769958073"/>
+      <nuclide name="O17" ao="0.00016840548315475953"/>
+      <nuclide name="O18" ao="0.0008888610250733007"/>
+      <nuclide name="Si28" ao="0.1024537072808195"/>
+      <nuclide name="Si29" ao="0.005202306934050325"/>
+      <nuclide name="Si30" ao="0.003429383978878108"/>
+    </material>
+    <material id="21" name="be_homogenised">
+      <density value="0.9721144468361395" units="g/cm3"/>
+      <nuclide name="Be9" ao="0.9998200220391528"/>
+      <nuclide name="H1" ao="7.998860618339169e-08"/>
+      <nuclide name="H2" ao="1.2459365948654258e-11"/>
+      <nuclide name="He3" ao="3.597159184979014e-10"/>
+      <nuclide name="He4" ao="0.00017985759953303225"/>
+      <nuclide name="O16" ao="3.990535550698611e-08"/>
+      <nuclide name="O17" ao="1.5160201921599992e-11"/>
+      <nuclide name="O18" ao="8.001706576245019e-11"/>
+    </material>
+    <material id="22" name="first_wall">
+      <density value="0.06569607388897294" units="g/cm3"/>
+      <nuclide name="Al27" ao="1.6000000000000003e-05"/>
+      <nuclide name="B10" ao="7.928e-07"/>
+      <nuclide name="B11" ao="3.2072000000000004e-06"/>
+      <nuclide name="C12" ao="0.00041534723999999996"/>
+      <nuclide name="C13" ao="4.65276e-06"/>
+      <nuclide name="Co59" ao="2e-05"/>
+      <nuclide name="Cr50" ao="0.0015642000000000002"/>
+      <nuclide name="Cr52" ao="0.030164039999999996"/>
+      <nuclide name="Cr53" ao="0.0034203600000000008"/>
+      <nuclide name="Cr54" ao="0.0008514000000000001"/>
+      <nuclide name="Cu63" ao="8.298000000000001e-06"/>
+      <nuclide name="Cu65" ao="3.7020000000000003e-06"/>
+      <nuclide name="Fe54" ao="0.020766349800000004"/>
+      <nuclide name="Fe56" ao="0.32598728136000005"/>
+      <nuclide name="Fe57" ao="0.00752846796"/>
+      <nuclide name="Fe58" ao="0.0010019008800000002"/>
+      <nuclide name="He3" ao="1.2e-06"/>
+      <nuclide name="He4" ao="0.5999988"/>
+      <nuclide name="Mn55" ao="0.0022"/>
+      <nuclide name="Mo100" ao="1.16928e-06"/>
+      <nuclide name="Mo92" ao="1.7578800000000004e-06"/>
+      <nuclide name="Mo94" ao="1.1024399999999999e-06"/>
+      <nuclide name="Mo95" ao="1.9047600000000001e-06"/>
+      <nuclide name="Mo96" ao="2.00076e-06"/>
+      <nuclide name="Mo97" ao="1.14984e-06"/>
+      <nuclide name="Mo98" ao="2.9150400000000003e-06"/>
+      <nuclide name="N14" ao="0.00015941392000000005"/>
+      <nuclide name="N15" ao="5.860800000000002e-07"/>
+      <nuclide name="Nb93" ao="2e-05"/>
+      <nuclide name="Ni58" ao="2.7230759999999997e-05"/>
+      <nuclide name="Ni60" ao="1.0489240000000002e-05"/>
+      <nuclide name="Ni61" ao="4.5596e-07"/>
+      <nuclide name="Ni62" ao="1.4538000000000002e-06"/>
+      <nuclide name="Ni64" ao="3.7024000000000006e-07"/>
+      <nuclide name="O16" ao="3.9904824e-06"/>
+      <nuclide name="O17" ao="1.5160000000000003e-09"/>
+      <nuclide name="O18" ao="8.001600000000001e-09"/>
+      <nuclide name="P31" ao="8.000000000000001e-06"/>
+      <nuclide name="S32" ao="1.14048888e-05"/>
+      <nuclide name="S33" ao="8.984280000000001e-08"/>
+      <nuclide name="S34" ao="5.035188e-07"/>
+      <nuclide name="S36" ao="1.7496000000000002e-09"/>
+      <nuclide name="Si28" ao="9.591886719999999e-05"/>
+      <nuclide name="Si29" ao="4.870486399999999e-06"/>
+      <nuclide name="Si30" ao="3.2106463999999996e-06"/>
+      <nuclide name="Ta180" ao="5.7647999999999994e-08"/>
+      <nuclide name="Ta181" ao="0.00047994235199999997"/>
+      <nuclide name="Ti46" ao="3.300000000000001e-07"/>
+      <nuclide name="Ti47" ao="2.976e-07"/>
+      <nuclide name="Ti48" ao="2.9488000000000005e-06"/>
+      <nuclide name="Ti49" ao="2.1640000000000006e-07"/>
+      <nuclide name="Ti50" ao="2.0720000000000003e-07"/>
+      <nuclide name="V50" ao="2.0000000000000003e-06"/>
+      <nuclide name="V51" ao="0.0007980000000000001"/>
+      <nuclide name="W180" ao="5.279999999999999e-06"/>
+      <nuclide name="W182" ao="0.001166"/>
+      <nuclide name="W183" ao="0.00062964"/>
+      <nuclide name="W184" ao="0.00134816"/>
+      <nuclide name="W186" ao="0.0012509200000000002"/>
+    </material>
+  </materials>
+  <geometry>
+    <cell id="189" name="void_gap" material="void" region="206 -205 199 -200 201 -202" universe="3"/>
+    <cell id="190" name="armour_W" material="7" region="205 -204 199 -200 201 -202" universe="3"/>
+    <cell id="191" name="fw_pipe_wall_0" material="2" region="209 -210 213 -214 201 -202 (-211 | 212 | -215 | 216 | -201 | 202) 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="192" name="fw_pipe_cool_0" material="1" region="211 -212 215 -216 201 -202 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="193" name="fw_pipe_wall_1" material="2" region="209 -210 217 -218 201 -202 (-211 | 212 | -219 | 220 | -201 | 202) 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="194" name="fw_pipe_cool_1" material="1" region="211 -212 219 -220 201 -202 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="195" name="fw_pipe_wall_2" material="2" region="209 -210 221 -222 201 -202 (-211 | 212 | -223 | 224 | -201 | 202) 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="196" name="fw_pipe_cool_2" material="1" region="211 -212 223 -224 201 -202 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="197" name="fw_pipe_wall_3" material="2" region="209 -210 225 -226 201 -202 (-211 | 212 | -227 | 228 | -201 | 202) 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="198" name="fw_pipe_cool_3" material="1" region="211 -212 227 -228 201 -202 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="199" name="fw_webs_and_skins" material="2" region="204 -203 199 -200 201 -202 (-209 | 210 | -213 | 214 | -201 | 202) (-209 | 210 | -217 | 218 | -201 | 202) (-209 | 210 | -221 | 222 | -201 | 202) (-209 | 210 | -225 | 226 | -201 | 202) 204 -203 199 -200 201 -202" universe="3"/>
+    <cell id="200" name="pre_be_slab" material="21" region="203 -207 199 -200 201 -202" universe="3"/>
+    <cell id="201" name="backplate" material="3" region="235 -236 237 -238 239 -240" universe="3"/>
+    <cell id="202" name="be_bottom" material="21" region="207 -235 199 -243 241 -242" universe="3"/>
+    <cell id="203" name="be_top" material="21" region="207 -235 246 -200 241 -242" universe="3"/>
+    <cell id="204" name="plate1_he" material="1" region="207 -235 243 -244 241 -242" universe="3"/>
+    <cell id="205" name="breeder_middle" material="20" region="207 -235 244 -245 241 -242" universe="3"/>
+    <cell id="206" name="plate2_he" material="1" region="207 -235 245 -246 241 -242" universe="3"/>
+    <surface id="199" type="y-plane" boundary="periodic" coeffs="-4.75" periodic_surface_id="200"/>
+    <surface id="200" type="y-plane" boundary="periodic" coeffs="4.75" periodic_surface_id="199"/>
+    <surface id="201" type="z-plane" boundary="reflective" coeffs="-5.0"/>
+    <surface id="202" type="z-plane" boundary="reflective" coeffs="5.0"/>
+    <surface id="203" name="FW_rear" type="x-plane" coeffs="-54.0"/>
+    <surface id="204" name="FW_front" type="x-plane" coeffs="-56.5"/>
+    <surface id="205" name="armour_front" type="x-plane" coeffs="-56.7"/>
+    <surface id="206" name="source_surface" type="x-plane" boundary="vacuum" coeffs="-56.900000000000006"/>
+    <surface id="207" type="x-plane" coeffs="-40.0"/>
+    <surface id="209" name="fw_pipe_outer_x0" type="x-plane" coeffs="-56.3"/>
+    <surface id="210" name="fw_pipe_outer_x1" type="x-plane" coeffs="-54.2"/>
+    <surface id="211" name="fw_pipe_inner_x0" type="x-plane" coeffs="-56.099999999999994"/>
+    <surface id="212" name="fw_pipe_inner_x1" type="x-plane" coeffs="-54.400000000000006"/>
+    <surface id="213" name="fw_pipe_outer_y0_0" type="y-plane" coeffs="-4.7"/>
+    <surface id="214" name="fw_pipe_outer_y1_0" type="y-plane" coeffs="-2.4250000000000003"/>
+    <surface id="215" name="fw_pipe_inner_y0_0" type="y-plane" coeffs="-4.5"/>
+    <surface id="216" name="fw_pipe_inner_y1_0" type="y-plane" coeffs="-2.6250000000000004"/>
+    <surface id="217" name="fw_pipe_outer_y0_1" type="y-plane" coeffs="-2.325"/>
+    <surface id="218" name="fw_pipe_outer_y1_1" type="y-plane" coeffs="-0.050000000000000266"/>
+    <surface id="219" name="fw_pipe_inner_y0_1" type="y-plane" coeffs="-2.125"/>
+    <surface id="220" name="fw_pipe_inner_y1_1" type="y-plane" coeffs="-0.2500000000000003"/>
+    <surface id="221" name="fw_pipe_outer_y0_2" type="y-plane" coeffs="0.04999999999999982"/>
+    <surface id="222" name="fw_pipe_outer_y1_2" type="y-plane" coeffs="2.3249999999999997"/>
+    <surface id="223" name="fw_pipe_inner_y0_2" type="y-plane" coeffs="0.24999999999999983"/>
+    <surface id="224" name="fw_pipe_inner_y1_2" type="y-plane" coeffs="2.1249999999999996"/>
+    <surface id="225" name="fw_pipe_outer_y0_3" type="y-plane" coeffs="2.425"/>
+    <surface id="226" name="fw_pipe_outer_y1_3" type="y-plane" coeffs="4.699999999999999"/>
+    <surface id="227" name="fw_pipe_inner_y0_3" type="y-plane" coeffs="2.625"/>
+    <surface id="228" name="fw_pipe_inner_y1_3" type="y-plane" coeffs="4.499999999999999"/>
+    <surface id="235" name="backplate_front" type="x-plane" coeffs="40.0"/>
+    <surface id="236" name="backplate_rear" type="x-plane" coeffs="50.0"/>
+    <surface id="237" type="y-plane" coeffs="-4.75"/>
+    <surface id="238" type="y-plane" coeffs="4.75"/>
+    <surface id="239" type="z-plane" coeffs="-5.0"/>
+    <surface id="240" type="z-plane" coeffs="5.0"/>
+    <surface id="241" type="z-plane" coeffs="-5.0"/>
+    <surface id="242" type="z-plane" coeffs="5.0"/>
+    <surface id="243" name="be_bottom_plate1_interface" type="y-plane" coeffs="-0.75"/>
+    <surface id="244" name="plate1_breeder_interface" type="y-plane" coeffs="-0.25"/>
+    <surface id="245" name="breeder_plate2_interface" type="y-plane" coeffs="0.25"/>
+    <surface id="246" name="plate2_be_top_interface" type="y-plane" coeffs="0.75"/>
+  </geometry>
+  <settings>
+    <run_mode>fixed source</run_mode>
+    <particles>100000</particles>
+    <batches>10</batches>
+    <inactive>0</inactive>
+    <source type="independent" strength="1.0" particle="neutron">
+      <space type="box">
+        <parameters>-56.89900000000001 -4.749 -4.999 -56.701 4.749 4.999</parameters>
+      </space>
+      <angle type="monodirectional" reference_uvw="1.0 0.0 0.0"/>
+      <energy type="normal" parameters="14100000.0 237486.84174075833"/>
+    </source>
+    <temperature_method>interpolation</temperature_method>
+    <temperature_range>300.0 2000.0</temperature_range>
+  </settings>
+  <tallies>
+    <mesh id="1">
+      <dimension>200 200 5</dimension>
+      <lower_left>-56.900000000000006 -4.75 -5.0</lower_left>
+      <upper_right>50 4.75 5.0</upper_right>
+    </mesh>
+    <filter id="1" type="cell">
+      <bins>205</bins>
+    </filter>
+    <filter id="2" type="cell">
+      <bins>205 202 203</bins>
+    </filter>
+    <filter id="4" type="mesh">
+      <bins>1</bins>
+    </filter>
+    <tally id="1" name="TBR">
+      <filters>1</filters>
+      <nuclides>Li6 Li7</nuclides>
+      <scores>H3-production</scores>
+    </tally>
+    <tally id="2" name="heating">
+      <filters>2</filters>
+      <scores>heating</scores>
+    </tally>
+    <tally id="3" name="flux_breeder">
+      <filters>1</filters>
+      <scores>flux</scores>
+    </tally>
+    <tally id="4" name="mesh_flux">
+      <filters>4</filters>
+      <scores>flux</scores>
+    </tally>
+    <tally id="5" name="mesh_heat">
+      <filters>4</filters>
+      <scores>heating</scores>
+    </tally>
+    <tally id="6" name="mesh_tbr">
+      <filters>4</filters>
+      <scores>H3-production</scores>
+    </tally>
+  </tallies>
+</model>

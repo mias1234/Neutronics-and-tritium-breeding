@@ -1,2 +1,2 @@
-hcpb_homogenised5.e is the old mesh file used in the input files in the original post.
-hcpb_homogenised.e is the new one made with Cubit.
+hcpb_homogenised6.e is a mesh file that was made in a similar manner compared to hcpb_homogenised5.e. hcpb_homogenised5.e is just too large to upload it is around 80 MB.
+hcpb_homogenised_new.e is the new one made with Cubit.

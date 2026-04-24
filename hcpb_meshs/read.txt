@@ -1,3 +1,4 @@
 hcpb_homogenised6.e is a mesh file that was made in a similar manner compared to hcpb_homogenised5.e. hcpb_homogenised5.e is just too large to upload it is around 80 MB. I had to reduce the dimensions.
 hcpb_homogenised_new.e is the new one made with Cubit.
-The model.xml should have the same geomtry as both mesh files.
+model_old.xml should have the same geomtry as both mesh files, but may only work with old mesh.
+model_new.xml will work with the new mesh.

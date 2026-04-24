@@ -1,1 +1,2 @@
 Folder contains the files needed an hcpb cooling simulation using Cardinal.
+The multiapp transfer is now in the conduction file, so run that instead of the neutronics file.

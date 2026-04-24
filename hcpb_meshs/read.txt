@@ -1,0 +1,2 @@
+hcpb_homogenised5.e is the old mesh file used in the input files in the original post.
+hcpb_homogenised.e is the new one made with Cubit.
